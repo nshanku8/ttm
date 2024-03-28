@@ -1,0 +1,36 @@
+{% extends 'Navbar.html' %}
+{% load static %}
+
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block body %}
+<br>
+<br>
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body" style = "background-color:#cef0d0">
+        <h5 class="card-title"><b>watch YouTube</b></h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="https://www.youtube.com/" class="btn btn-primary">youtube</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body" style = "background-color:#cef0d0">
+        <h5 class="card-title"><b>collect wallpapers</b></h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="https://wallpapers.com/4k" class="btn btn-primary">wallpapers</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+</body>
+</html>

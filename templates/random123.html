@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <div class="col order-first">
+      <form method="post" action="{% url 'random123' %}">
+ {% csrf_token %}
+    <br>
+    <label>Enter otp count: </label>
+    <input type="text" name="otp" required>
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
+    </div>
+<h1>{{result}}</h1>
+</body>
+</html>
